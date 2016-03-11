@@ -470,7 +470,7 @@ type
 
   Writer* = concept W
     ## Writer to output a character `c`.
-    write(W, char)
+    write(W, 'c')
 
   FmtAlign* = enum ## Format alignment
     faDefault  ## default for given format type
